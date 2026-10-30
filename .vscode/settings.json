@@ -1,0 +1,14 @@
+{
+    "python.defaultInterpreterPath": "C:\\Python313\\python.exe",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "files.associations": {
+        "*.pcap": "binary",
+        "*.joblib": "binary"
+    }
+}

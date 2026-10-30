@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Streamlit Dashboard",
+            "type": "shell",
+            "command": "python -m streamlit run dashboard/app.py",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": "python tests/test_pipeline.py",
+            "problemMatcher": [],
+            "group": "test"
+        },
+        {
+            "label": "Run Terminal Demo",
+            "type": "shell",
+            "command": "python demo_cli.py",
+            "problemMatcher": []
+        },
+        {
+            "label": "Install Dependencies",
+            "type": "shell",
+            "command": "pip install -r requirements.txt",
+            "problemMatcher": []
+        }
+    ]
+}
